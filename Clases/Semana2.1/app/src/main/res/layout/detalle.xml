@@ -5,25 +5,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/label_detalle"
-        android:layout_width="352dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="72dp"
-        android:text="Su número de cuenta es: xxxx xxxx xxxx xx87"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_Pagos"
-        android:layout_width="195dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="528dp"
-        android:text="Pagos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
-        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
