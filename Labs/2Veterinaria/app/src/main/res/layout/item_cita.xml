@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nombrecliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_toEndOf="@+id/foto"
+        />
+    <TextView
+        android:id="@+id/nombremascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/nombrecliente"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_toEndOf="@+id/foto"
+        />
+
+    <TextView
+        android:id="@+id/raza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@+id/nombremascota"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_toEndOf="@+id/foto"
+        />
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@+id/raza"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_toEndOf="@+id/foto"
+        android:ems="10"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/horacita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@+id/edad"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_toEndOf="@+id/foto"
+        android:ems="10"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/notacita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@+id/horacita"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_toEndOf="@+id/foto"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Eliminar" />
+
+
+</RelativeLayout>
